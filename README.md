@@ -16,12 +16,11 @@ Connect the Wicked MCP server once:
 hermes mcp add wicked --url "https://mcp.wickedapi.com/mcp"
 ```
 
-Add this repo as a skill source and install:
+Install either or both:
 
 ```
-hermes skills tap add WickedAPI/hermes-wicked-skills
-hermes skills install wicked-vet
-hermes skills install wicked-verify
+hermes skills install WickedAPI/hermes-wicked-skills/skills/wicked-vet
+hermes skills install WickedAPI/hermes-wicked-skills/skills/wicked-verify
 ```
 
 

@@ -19,12 +19,12 @@ hermes mcp add wicked --url "https://mcp.wickedapi.com/mcp"
 Add this repo as a skill source and install:
 
 ```
-hermes skills tap add OWNER/hermes-wicked-skills
+hermes skills tap add WickedAPI/hermes-wicked-skills
 hermes skills install wicked-vet
 hermes skills install wicked-verify
 ```
 
-(Replace `OWNER` with the GitHub owner of this repo.)
+
 
 ## Disclosures
 
@@ -34,6 +34,6 @@ hermes skills install wicked-verify
 - Registry/reputation lookups used are free. Anything priced returns a payment challenge, and the skills require the
   user's yes before any spend.
 
-Companion: [hermes-wicked-memory](https://github.com/choaticpixels/hermes-wicked-memory) (long-term memory plugin).
+Companion: [hermes-wicked-memory](https://github.com/WickedAPI/hermes-wicked-memory) (long-term memory plugin).
 
 License: MIT.
